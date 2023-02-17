@@ -6,6 +6,6 @@ int main(void) {
   cout << "Hello, World\n";
   cout << "Hello, Jenkins\n";
   cout << "I have successfully built and run\n";
-  cout << "HASHCODE : 25th && 26th ?\n";
+  cout << "<<<<<< MADE CHANGESS HERE >>>>>>\n";
   return 0;
 }
