@@ -4,10 +4,6 @@ FROM jenkins/jenkins:lts
 USER root
 RUN apt-get update && apt-get install -y make && apt-get install -y g++ --fix-missing
 # drop back to the regular jenkins user - good practice
+ENV JENKINS_OPTS --httpPort=8083
+EXPOSE 8083
 USER jenkins
-
-
-
-
-
-
